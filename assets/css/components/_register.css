@@ -1,0 +1,27 @@
+/*============  REGISTER ===========*/
+.register {
+    background-image: url('../../img/FONDO 3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.register__header {
+    /*margin-bottom: 3rem;*/
+}
+.register__container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-bottom: 3rem;
+}
+.register__action {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px){
+    .register__container {
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,75 @@
+/*============  STAGES ===========*/
+.stage__container {
+    padding-bottom: 4rem;
+}
+
+.stage__grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 4rem;
+}
+
+.stage {
+    background-image: url('../../img/FONDO ETAPAS.png');
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.stage__paragraph {
+    font-family: 'cem', sans-serif;
+    font-size: var(--normal-font-size);
+    margin-bottom: 2rem;
+}
+
+.stage__subtitle {
+    font-size: var(--normal-font-size);
+    margin-bottom: 1rem;
+}
+
+.stage__p {
+    font-size: var(--small-font-size);
+    font-family: 'cr', sans-serif;
+}
+
+.stage__ul {
+    padding-left: 2rem;
+}
+
+.stage__li {
+    padding-bottom: 2.5rem;
+    padding-right: 3.5rem;
+    padding-left: 2rem;
+    border-left: 4px solid var(--ligth);
+    position: relative;
+}
+
+.stage__li::before {
+    content: '';
+    width: 1.875rem;
+    height: 1.875rem;
+    position: absolute;
+    top: 0;
+    left: -1rem;
+    border-radius: 50%;
+    background-color: var(--ligth);
+}
+
+.stage__li:nth-child(even) {
+    border-color: var(--blue-light);
+}
+.stage__li:nth-child(even)::before {
+    background-color: var(--blue-light);
+}
+.stage__li:last-child {
+    border-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+    .stage__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .stage__ul {
+        padding-left: 0;
+    }
+}

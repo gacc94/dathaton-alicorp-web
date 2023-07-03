@@ -1,0 +1,38 @@
+/*============  INFORMATION ===========*/
+.information__header {
+    margin-bottom: 1.5rem;
+}
+.information__details {
+    border-bottom: 1px solid #Ccc;
+    padding: 2.5rem 0 1.125rem;
+}
+.information__details[open] .information__arrow {
+    transform: rotate(-180deg);
+    transition: all .2s ease;
+}
+.information__summary {
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.information__subtitle {
+    font-family: 'cm', sans-serif;
+    font-size: var(--h3-font-size);
+}
+.information__description {
+    padding: 2rem 0 1rem;
+    font-size: var(--normal-font-size);
+}
+.information__image {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+.information__arrow {
+    width: 1.25rem;
+}
+.information__accordion {
+    margin-bottom: 2.5rem;
+}

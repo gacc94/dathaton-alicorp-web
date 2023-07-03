@@ -1,0 +1,38 @@
+/*============  FOOTER ===========*/
+.footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.footer__logo {
+    max-width: 10.75rem
+}
+.footer__paragraph {
+    margin: 1rem 0;
+    font-size: var(--normal-font-size);
+}
+.footer__ul {
+    display: flex;
+    gap: .5rem;
+}
+.footer__img {
+    width: 2rem;
+}
+/*============  COPYRIGHT ===========*/
+.copyright__container {
+    background-color: var(--gris);
+
+}
+.copyright__figure {
+    padding: 1rem 0;
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    justify-content: center;
+}
+.copyright__img {
+    width: .875rem;
+}
+.copyright__text {
+    font-family: 'cem', sans-serif;
+    font-size: var(--small-font-size);
+}

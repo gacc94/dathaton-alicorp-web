@@ -1,0 +1,87 @@
+.container {
+    max-width: 1125px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1.5rem;
+}
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+.datathon__logo {
+    max-width: 9rem;
+}
+
+.section {
+    padding-block-start: 3rem;
+}
+
+.section__title {
+    font-family: 'teb', serif;
+    font-size: var(--h2-font-size);
+    margin-bottom: 1.5rem;
+    color: var(--red-ligth);
+}
+
+.section__title2 {
+    margin-bottom: .75rem;
+    font-size: var(--strong-font-size);
+}
+
+.section__subtitle {
+    margin-bottom: 1.5rem;
+    font-size: var(--normal-font-size);
+}
+
+.section__info {
+    font-family: 'csb', sans-serif;
+    text-align: justify;
+    font-size: var(--smaller-font-size);
+}
+.section__header {
+    margin-bottom: 3rem;
+}
+.text-center {
+    text-align: center;
+}
+.filter-white {
+    filter: invert(100%) sepia(2%) saturate(3%) hue-rotate(57deg) brightness(104%) contrast(100%);
+}
+
+.white {
+    color: var(--ligth);
+}
+
+.red-light {
+    color: var(--red-ligth);
+}
+
+.main {
+    overflow: hidden; /* For animation ScrollReveal */
+}
+
+.link__access {
+    display: inline-block;
+    border: 2px solid var(--ligth);
+    color: var(--ligth);
+    font-family: 'cm', sans-serif;
+    padding: 1rem 4rem;
+    border-radius: .5rem;
+    font-size: var(--h3-font-size);
+    transition: all .2s ease;
+}
+.link__access:hover {
+    transform: scale(.95);
+    /*background-color: var(--red-ligth);*/
+    /*border-color: var(--red-ligth);*/
+}
+
+@media screen and (min-width: 768px) {
+    .section {
+        padding-block-start: 4rem;
+    }
+    .datathon__logo {
+        max-width: 10.75rem;
+    }
+}

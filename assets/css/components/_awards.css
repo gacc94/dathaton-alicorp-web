@@ -1,0 +1,44 @@
+/*============  AWARDS ===========*/
+.awards__title {
+    text-align: center;
+}
+
+.awards__paragraph {
+    text-align: center;
+}
+
+.awards__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+.awards__figcaption {
+    margin-top: 1.5rem;
+}
+
+.awards__subtitle {
+    margin-bottom: .5rem;
+}
+
+.awards__strong {
+    font-family: 'tb', sans-serif;
+    font-size: var(--normal-font-size);
+}
+
+.awards__span {
+    font-family: 'cr', sans-serif;
+    font-size: var(--smaller-font-size);
+}
+
+@media screen and (min-width: 480px) {
+    .awards__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .awards__grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

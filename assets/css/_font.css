@@ -1,0 +1,36 @@
+/*============  TITLES ===========*/
+@font-face {
+    font-family: "teb";
+    src: url('../fonts/titulos/BwGradualDEMO-ExtraBold.otf');
+}
+
+@font-face {
+    font-family: "tb";
+    src: url('../fonts/titulos/BwGradualDEMO-ExtraBold.otf');
+}
+
+/*============  CUERPO ===========*/
+@font-face {
+    font-family: "cem";
+    src: url('../fonts/titulos/BwGradualDEMO-Medium.otf');
+}
+
+@font-face {
+    font-family: "cb";
+    src: url('../fonts/cuerpo/AlicorpSans-Bold.otf');
+}
+
+@font-face {
+    font-family: "csb";
+    src: url('../fonts/cuerpo/AlicorpSans-SemiBold.otf');
+}
+
+@font-face {
+    font-family: "cm";
+    src: url('../fonts/cuerpo/AlicorpSans-Medium.otf');
+}
+
+@font-face {
+    font-family: "cr";
+    src: url('../fonts/cuerpo/AlicorpSans-Regular.otf');
+}

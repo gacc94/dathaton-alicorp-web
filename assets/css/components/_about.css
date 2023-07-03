@@ -1,0 +1,64 @@
+/*============  ABOUT ===========*/
+.about__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+}
+
+.about__paragraph {
+    font-size: var(--normal-font-size);
+}
+
+.about__content {
+    padding: 3rem 2rem 2rem;
+    border-radius: .5rem;
+
+    background-image: url('../../img/CUADRO 2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about__subtitle {
+    font-size: var(--normal-font-size)
+}
+
+.about__data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3.5rem;
+}
+
+.about__figure {
+    margin-bottom: 2rem;
+}
+
+.about__cup {
+    width: 3.5rem;
+}
+
+.about__calendar, .about__location {
+    display: flex;
+    gap: 2rem;
+}
+
+.about__img-calendar, .about__img-location {
+    width: 2rem;
+}
+
+@media (min-width: 768px) {
+    .about__content {
+        padding: 3.5rem 2.5rem 2.5rem;
+    }
+
+    .about__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1080px) {
+    .about__grid {
+        gap: 4rem;
+    }
+}

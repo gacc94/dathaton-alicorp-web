@@ -1,0 +1,14 @@
+.jury__figcaption {
+    /*border: 1px solid blue;*/
+}
+.jury__image {
+    /*border: 1px solid red;*/
+    padding: 1rem
+}
+.jury__subtitle {
+    font-family: 'tb', sans-serif;
+    font-size: var(--strong-font-size);
+}
+.jury__body {
+    padding-bottom: 2.5rem;
+}

@@ -1,0 +1,13 @@
+.owner__title {
+    font-size: var(--strong-font-size);
+}
+.owner__body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-bottom: 4rem;
+}
+.owner__img {
+    width: 13rem;
+}
