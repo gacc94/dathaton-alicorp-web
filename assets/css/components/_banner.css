@@ -1,9 +1,16 @@
 /*============  BANNER ===========*/
 
 .banner {
-    margin-top: -20px;
+    /*margin-top: -20px;*/
 }
 
 .banner img {
     /*nav-banner-image: url("assets/img/1@2x.png");*/
+}
+.banner__video {
+    width: 100%;
+    height: auto;
+}
+.banner__source::backdrop {
+    background: #000;
 }
