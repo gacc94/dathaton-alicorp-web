@@ -1,16 +1,101 @@
 /*============  BANNER ===========*/
-
 .banner {
     /*margin-top: -20px;*/
+    /*margin-top: -.25rem;*/
+    /*margin-top: 1rem;*/
+    position: relative;
+    background-image: url('../../img/BANNER PRINCIPAL.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
-.banner img {
-    /*nav-banner-image: url("assets/img/1@2x.png");*/
+.banner__container {
+    padding-top: 7.5rem;
+    /*display: grid;*/
+    /*grid-template-columns: max-content 1fr;*/
+    display: flex;
+    width: 100%;
+    min-height: 45rem;
+    /*border: 2px solid orange;*/
+
+}
+.banner__body {
+    position: relative;
+    /*border: 1px solid skyblue;*/
+    /*, linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));*/
+    /*background-position: center bottom;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: contain;*/
+    /*background-color: rgba(0 0 0 / .5);*/
+    /*opacity: .8;*/
+    width: 100%;
+}
+.banner__body:after {
+    content: '';
+    background-image: url('../../img/PERSONAS.png');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /*opacity: .5;*/
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+.banner__header {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /*border: 2px solid blue;*/
+    width: max-content;
+    height: 100%;
+}
+.banner__content {
+    /*border: 1px solid aqua;*/
+}
+.banner__paragraph {
+    margin-bottom: 1.5rem;
+    font-size: var(--normal-font-size);
+}
+.banner__access {
+    display: inline-block;
+    border: 2px solid var(--ligth);
+    color: var(--ligth);
+    font-family: 'cm', sans-serif;
+    padding: .5rem 2.5rem;
+    border-radius: .5rem;
+    font-size: var(--strong-font-size);
+    transition: all .2s ease;
+}
+.banner__access:hover {
+    transform: scale(.95);
+    /*background-color: var(--red-ligth);*/
+    /*border-color: var(--red-ligth);*/
+}
+/*.banner__image {*/
+/*    width: 100% ;*/
+/*    margin-left: -6rem;*/
+/*    border: 1px solid #78B927;*/
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*right: 0;*/
+/*}*/
+/*.banner__img {*/
+/*    max-width: 25rem;*/
+/*}*/
+@media screen and (min-width: 768px) {
+    .banner__body {
+        /*background-image: url('../../img/PERSONAS.png');*/
+    }
 }
 .banner__video {
     width: 100%;
-    height: auto;
-}
-.banner__source::backdrop {
-    background: #000;
+    max-width: 100%;
 }
